@@ -1,3 +1,17 @@
+:root {
+    --background-color: #f4f4f4;
+
+    --header-background-color: #8737ac;
+    --main-background-color: #369936;
+    --footer-background-color: #9d9e9e;
+
+    --button-color: #d6581d;
+
+    --font-color: #333333;
+    --header-font-color: #ffffff;
+    --footer-font-color: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
