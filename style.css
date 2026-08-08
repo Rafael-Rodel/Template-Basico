@@ -6,6 +6,7 @@
   --footer-background-color: #9d9e9e;
 
   --button-color: #d6581d;
+  --button-hover-color: #c0714f;
 
   --font-color: #333333;
   --header-font-color: #ffffff;
@@ -46,6 +47,40 @@
 
     img {
       width: 100%;
+    }
+  }
+  footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-font-color);
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+
+    card-footer {
+      img {
+        width: 150px;
+        height: 100px;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+
+      p {
+        margin: 15px 0;
+      }
+
+      button {
+        background-color: var(--button-color);
+        color: var(--header-font-color);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--button-hover-color);
+        }
+      }
     }
   }
 }
